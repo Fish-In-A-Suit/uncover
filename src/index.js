@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import UNavbar from './components/UNavbar';
-
-import './bootstrap/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UNavbar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

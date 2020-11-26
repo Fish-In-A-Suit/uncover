@@ -1,0 +1,49 @@
+:root {
+    /*global variables*/
+    --bg:#242526;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --border: 1px solid #474a4d;
+    --border-radius: 8px;
+    --animation-speed: 500ms;
+}
+
+body {
+    height: 100%;
+    padding-top: 90px;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 520px;
+    max-width: 520px;
+}
+
+.panel-auth {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.panel-auth>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+.phi {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.panel-auth>.panel-heading a {
+    text-decoration: none;
+    font-size: 20px;
+}
