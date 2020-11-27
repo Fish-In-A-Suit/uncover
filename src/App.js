@@ -5,9 +5,7 @@ function App() {
   return (
     <div className="App">
       <AuthenticationTabbed/>
-    </div>
-
-    
+    </div> 
   );
 }
 
